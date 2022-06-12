@@ -8,4 +8,4 @@ docker build -t ${IMAGE_NAME}:${IMAGE_VERSION} . # often we use ":" to separate 
 # Build image from a custom Dockerfile. e.g:
 # docker build -f Dockerfile.local .
 # docker build -f ./DirectoryName/Dockerfile .
-docker build -f ${DOCKERFILE_PATH} . 
+docker build -f ${DOCKERFILE_PATH} .
